@@ -5,7 +5,7 @@ from google.cloud import speech
 
 client = Client(
     vertexai=True,
-    project="youtube-uplode-481119",
+    project="youtube-uplode-4819",
     location="us-central1"
 )
 
