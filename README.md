@@ -50,66 +50,67 @@ youtube_automation/
 
 ## Google Cloud Setup
 
-Enable the following APIs in Google Cloud Console:
-YouTube Data API v3
-Vertex AI API
-Speech-to-Text API
-Billing (required)
+- Enable the following APIs in Google Cloud Console:
+- YouTube Data API v3
+- Vertex AI API
+- Speech-to-Text API
+- Billing (required)
 
 ## Credentials Required
 
-OAuth Client ID
-Download as client_secret.json
-Service Account Key
+- OAuth Client ID
+- Download as **client_secret.json**
+- Service Account Key
 - Download and rename to:
 
-your_service_account.json
+**your_service_account.json**
 
 ## 🔐 Authentication
 
 Run once to authenticate YouTube:
 
-python auth.py
+*python auth.py*
 
 This generates token.pkl for future uploads.
 
 ## ▶️ Run the Automation
 
 cd youtube_automation
+
 python main.py
 
 
 ## The system will:
 
-Analyze video content
-Generate AI-based title, description & tags
-Schedule upload
-Upload video to YouTube
-Update database
-Move uploaded video to uploaded/
+- Analyze video content
+- Generate AI-based title, description & tags
+- Schedule upload
+- Upload video to YouTube
+- Update database
+- Move uploaded video to uploaded/
 
 ## 🧠 AI Intelligence
 
-Gemini automatically:
-Understands video context from audio
-Chooses best language (English / Hindi / Hinglish)
-Generates SEO-optimized, viral metadata
-Adapts tone for kids, storytelling, or general content
+- Gemini automatically:
+- Understands video context from audio
+- Chooses best language (English / Hindi / Hinglish)
+- Generates SEO-optimized, viral metadata
+- Adapts tone for kids, storytelling, or general content
 
 
 ## ⚠️ Notes
 
-YouTube daily upload limits apply
-Google Cloud billing is mandatory
-Recommended: run once per day
+- YouTube daily upload limits apply
+- Google Cloud billing is mandatory
+- Recommended: run once per day
 
 ## 🎯 Use Cases
 
-Kids & Cartoon Channels
-Faceless YouTube Automation
-Educational Content
-Storytelling & Motivation
-Scalable Content Pipelines
+- Kids & Cartoon Channels
+- Faceless YouTube Automation
+- Educational Content
+- Storytelling & Motivation
+- Scalable Content Pipelines
 
 ## 📜 Disclaimer
 
